@@ -1,0 +1,179 @@
+body {
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 20px; 
+}
+
+a {
+	color: white; 
+	padding-left: 10px; 
+	padding-right: 10px;
+	font-size: 1.5em;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #0C709B;
+    text-decoration: none; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+hr.seperator-light,
+hr.seperator-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.seperator-light {
+	border-color: #fff;
+}
+
+hr.seperator-primary {
+	border-color: black;
+}
+
+header {
+	text-align: center;
+	color: #fff; 
+	background: #4A9DC1;
+}
+header .container {
+	padding-top: 40px; 
+	padding-bottom: 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 2em;
+    }
+}
+
+.headshot{
+	width: 220px;
+	height: auto; 
+}
+
+
+
+@media(min-width: 768px) {
+	.headshot {
+		width: 290px; 
+		height: auto; 
+	}
+}
+
+section {
+	padding: 100px 0; 
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+}
+
+section h2 {
+	margin: 0; 
+	font-size: 3em; 
+}
+
+section.primary {
+	color:#fff; 
+    background: #4A9DC1;
+}
+
+section .title {
+    display: block;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2.5em;
+}
+
+section .subtitle {
+	font-size: 1.75em; 
+}
+
+section .content {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.row-bottom {
+	padding-top: 25px;
+}
+
+.content-bottom {
+	padding-top: 25px;
+}
+
+@media(min-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+    section .title {
+        font-size: 3em;
+    }
+
+    section .subtitle {
+		font-size: 2em; 
+	}
+
+    section .content {
+        font-size: 1.5em;
+    }
+    
+    .row-bottom {
+	padding-top: 0px;
+	}
+}
+
+footer {
+	color: #fff;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #2D85AB;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #0C709B;
+}
