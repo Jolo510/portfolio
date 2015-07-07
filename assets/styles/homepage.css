@@ -31,8 +31,8 @@ h6 {
     font-weight: 700;
 }
 
-hr.seperator-light,
-hr.seperator-primary {
+hr.separator-light,
+hr.separator-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -41,11 +41,11 @@ hr.seperator-primary {
     text-align: center;
 }
 
-hr.seperator-light {
+hr.separator-light {
 	border-color: #fff;
 }
 
-hr.seperator-primary {
+hr.separator-primary {
 	border-color: black;
 }
 
@@ -131,6 +131,9 @@ section .content {
     font-weight: 300;
 }
 
+.projects {
+    padding-bottom: 20px;
+}
 .row-bottom {
 	padding-top: 25px;
 }
