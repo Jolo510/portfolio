@@ -91,7 +91,9 @@ header .intro-text .skills {
 	height: auto; 
 }
 
-
+.projectLink {
+    color: blue;
+}
 
 @media(min-width: 768px) {
 	.headshot {
@@ -151,13 +153,13 @@ section .content {
     }
 
     section .subtitle {
-		font-size: 2em; 
+		font-size: 2em;
 	}
 
     section .content {
         font-size: 1.5em;
     }
-    
+
     .row-bottom {
 	padding-top: 0px;
 	}

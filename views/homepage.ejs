@@ -1,155 +1,170 @@
 <header>
     <div class="container">
-        <div class="row"> 
-            <div class="col-md-6" > 
-                <img src="/images/johnnie.png" alt="8-bit image of Johnnie Lo" class="headshot" > 
+        <div class="row">
+            <div class="col-md-6" >
+                <img src="/images/johnnie.png" alt="8-bit image of Johnnie Lo" class="headshot" >
             </div>
-            <div class="col-md-6 intro-text"> 
-                <span class="name">Hello, I'm Johnnie</span> 
-                <hr class="separator-light"> 
-                <span class="skills">Java - Ruby on Rails - JavaScript</span><br>
-                <span class="skills">Node.js - Sails.js - Git - PostgreSQL</span>
-            </div>  
+            <div class="col-md-6 intro-text">
+                <span class="name">Hello, I'm Johnnie</span>
+                <hr class="separator-light">
+                <span class="skills">JavaScript - Python - Java</span><br>
+                <span class="skills">MeteorJS - Node.js - MongoDB</span>
+            </div>
         </div>
-    </div> 
-</header> 
+    </div>
+</header>
 
-<section id="about"> 
+<section id="about">
     <div class="container">
         <div class="row projects">
             <div class="col-md-6">
-                <span class="title">About Me</span> 
-                <hr class="separator-primary"> 
+                <span class="title">About Me</span>
+                <hr class="separator-primary">
                 <span class="content">
-                    I recently graduated with a degree in Computer Science and a minor in Mathematics from San Francisco State University.
-                    My experience consist of a software engineer internship as well as learning the latest web 
-                    technologies in my spare time. As of now, I am looking for full time employment in software 
-                    development. 
-                </span>
-            </div> 
-            <div class="col-md-6 row-bottom">
-                <span class="title">Experience</span>
-                <hr class="separator-primary"> 
-                <span class="content">
-                    In the summer of 2013, I had an internship at Oration Inc. The engineering team practiced agile
-                    development that consisted of daily scrums, weekly sprints, and code reviews. We also used Git 
-                    for version control. I gained experience working in a start-up environment with short release 
-                    cycles.
+                    I'm a <b>full stack engineer</b> in the San Francisco Bay Area. I graduated with a computer science degree from San Francisco State
+                    University. I love building things. Check out my projects below! Also, I'm looking for new opportunities in tech.
+                    <br>Feel free to contact me!
+                    <br>
+                    <b>johnnielo50@gmail.com</b>
                 </span>
             </div>
-        </div> 
-    </div> 
-</section> 
+            <div class="col-md-6 row-bottom">
+                <span class="title">Experience</span>
+                <hr class="separator-primary">
+                <span class="content">
+                    - I previously worked as a full stack engineer <b>Gummicube</b>, an App Store Optmization (AS0) company.<br>
+                    - During college, I worked as software engineer internship at <b>Oration Inc</b>, Hospital & Health Care company.
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
 
-<section class="primary" id="projects"> 
+<section class="primary" id="projects">
     <div class="container text-center">
         <div class="row">
-            <div class="col-md-12"> 
-                <span class="title">Projects</span> 
-                <hr class="separator-light"> 
-            </div> 
+            <div class="col-md-12">
+                <span class="title">Projects</span>
+                <hr class="separator-light">
+            </div>
         </div>
+
         <div class="row projects">
-            <span class="subtitle">MailYou</span><br>
-            <a href="https://www.mailyou.co/" target="_blank">https://www.mailyou.co/</a>
-            <div class="col-md-offset-1 col-md-11 text-left"> 
-                <span class="content">
-                    <span style="text-align: left">The function of this web application is to let users send themselves email daily.</span>
-                    <ul>
-                        <li>Users enter a unique id and that in turn creates a unique url for them to access their email forms.</li>
-                        <li>Example https://www.mailyou.co/your-unique-id</li> 
-                        <li>They can then save their email address and will receive a confirmation email.
-                        <li>Emails won't be sent unless user visits the link provided in the email</li>
-                        </li> 
-                        <li>Users can also turn on and off the daily emails with a touch of a button on the email forms</li> 
-                        <li>Users can change the email address and message as they please</li> 
-                    </ul>
-                </span>
-            </div> 
-        </div> 
-        
-        <div class="row projects">
-            <span class="subtitle">WeatherNow<br></span>
-            <a href="http://weathernow.herokuapp.com/" target="_blank">http://weathernow.herokuapp.com/</a>
-            <div class="col-md-offset-1 col-md-11 text-left">   
+            <span class="subtitle">Papernotes</span><br>
+            <a class="projectLink" href="https://www.papernotes.co/" target="_blank">https://www.papernotes.co/</a>
+            <div class="col-md-offset-1 col-md-11 text-left">
                 <span class="content">
                     <span style="text-align: left">
-                        The Weather Now web app displays information about 
+                      A web app that allows non-technical users to send each other encrypted messages using RSA without having to
+                      know about RSA, similar to how Dropbox users don’t have to know how to use rsync.
+                    </span>
+                    <ul>
+                      <li>No need to install a browser extension or exchange public keys.</li>
+                      <li>No private keys stored on the server.</li>
+                      <li><b>Tech Stack:</b> MeteorJS, React, MongoDB, CloudFlare, Bootstrap, and Heap Analytics.</li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+
+        <div class="row projects">
+            <span class="subtitle">MailYou</span><br>
+            <a class="projectLink" href="https://www.mailyou.co/" target="_blank">https://www.mailyou.co/</a>
+            <div class="col-md-offset-1 col-md-11 text-left">
+                <span class="content">
+                    <span style="text-align: left">
+                        View and edit your to-do list from any browser using your own secret link. Your to-do list is emailed to you ( and optionally your collaborators ) every morning.
+                    </span>
+                    <ul>
+                        <li>Create a personalized link to your to-do list that can easily be shared with others</li>
+                        <li>Add multiple collaborators</li>
+                        <li>Emphasis on UI/UX, e.g. novel sign-up process designed to minimize friction.</li>
+                        <li><b>Tech Stack:</b> Sails.js, MailGun, MongoDB, CloudFlare, Bootstrap, jQuery, and Mixpanel.</li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+
+        <div class="row projects">
+            <span class="subtitle">WeatherNow<br></span>
+            <a class="projectLink" href="http://weathernow.herokuapp.com/" target="_blank">http://weathernow.herokuapp.com/</a>
+            <div class="col-md-offset-1 col-md-11 text-left">
+                <span class="content">
+                    <span style="text-align: left">
+                        The Weather Now web app displays information about
                         the weather based on the user's Zip Code/Postal Code.
                     </span>
                     <ul>
-                        <li>Built using Sails.js/Node.js</li>
-                        <li>Uses Yahoo Query Language to obtain weather information</li> 
-                        <li>Single page application</li>  
+                        <li>Display the time of sunrise/sunset</li>
                         <li>Mobile first and Responsive design</li>
-                        <li>Uses jQuery mainly for AJAX calls</li>
+                        <li><b>Tech Stack:</b> Sails.js, Bootstrap, HTML, CSS, AJAX, jQuery, and Yahoo Query Language</li>
                     </ul>
-                </span> 
-            </div> 
-        </div> 
+                </span>
+            </div>
+        </div>
 
         <div class="row projects">
             <span class="subtitle">Jaunts<br></span>
-            <a href="http://jaunts.herokuapp.com/" target="_blank">http://jaunts.herokuapp.com/</a>
-            <div class="col-md-offset-1 col-md-11 text-left"> 
+            <a class="projectLink" href="http://jaunts.herokuapp.com/" target="_blank">http://jaunts.herokuapp.com/</a>
+            <div class="col-md-offset-1 col-md-11 text-left">
                 <span class="content">
-                    <span style="text-align: left">During the summer of 2014, I built a web  
-                    application using Ruby on Rails. The app lets people create itineraries for 
-                    jaunts around their city. The idea is that the locals know the best spots.</span> 
+                    <span style="text-align: left">During the summer of 2014, I built a web
+                    application using Ruby on Rails. The app lets people create itineraries for
+                    jaunts around their city. The idea is that the locals know the best spots.</span>
                     <ul>
                         <li>Yelp’s API to search for businesses</li>
                         <li>Facebook's Graph API for user login</li>
                         <li>Learned to organize and prioritize task to complete product within a timeframe</li>
-                        <li>Complete product lifecycle</li>
+                        <li><b>Tech Stack:</b> Ruby on Rails, PostgreSQL, Bootstrap, HTML, CSS, and jQuery</li>
                     </ul>
                 </span>
-            </div> 
-        </div> 
-    </div> 
-</section> 
-
-<section id="contact"> 
-    <div class="container"> 
-        <div class="row"> 
-            <div class="col-md-4 col-md-offset-4">
-                <span class="title">Contact</span> 
-                <hr class="separator-primary"> 
-                <span class="content">
-                    Email - johnnielo50@gmail.com 
-                </span> 
             </div>
-        </div> 
-    </div> 
-</section> 
+        </div>
+    </div>
+</section>
 
-<footer class="text-center"> 
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <span class="title">Contact</span>
+                <hr class="separator-primary">
+                <span class="content">
+                    Email - johnnielo50@gmail.com
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center">
     <div class="footer-above">
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-6">
-                    <h3>Location</h3> 
-                    <p>Fremont, CA 94555</p> 
-                </div> 
+                    <h3>Location</h3>
+                    <p>Fremont, CA 94555</p>
+                </div>
                 <div class="footer-col col-md-6">
-                    <h3>Links</h3> 
+                    <h3>Links</h3>
                     <ul class="list-inline">
-                        <li><a href="https://github.com/jolo510" target="_blank">Github</a></li> 
-                        <li><a href="https://www.linkedin.com/pub/johnnie-lo/78/6b9/b17" target="_blank">Linkedin</a></li> 
-                        <li><a href="https://docs.google.com/document/d/1XyGJOCjRGq32-eSphnxTFaXadPVsMe3ngsM7BoVGBPU/edit#" target="_blank">Resume</a></li> 
+                        <li><a href="https://github.com/jolo510" target="_blank">Github</a></li>
+                        <li><a href="https://www.linkedin.com/pub/johnnie-lo/78/6b9/b17" target="_blank">Linkedin</a></li>
+                        <li><a href="https://docs.google.com/document/d/1XyGJOCjRGq32-eSphnxTFaXadPVsMe3ngsM7BoVGBPU/edit#" target="_blank">Resume</a></li>
                     </ul>
-                </div> 
+                </div>
             </div>
         </div>
-    </div> 
+    </div>
     <div class="footer-below">
         <div class="container">
             <div class="row">
-                <div class="col-md-12"> 
-                    Copyright &copy; Johnnie Lo 2015
-                </div>  
-            </div> 
+                <div class="col-md-12">
+                    Copyright &copy; Johnnie Lo 2016
+                </div>
+            </div>
         </div>
-    </div> 
-</footer> 
+    </div>
+</footer>
 
 <!-- <a href="https://docs.google.com/document/d/1XyGJOCjRGq32-eSphnxTFaXadPVsMe3ngsM7BoVGBPU/export?format=pdf" target="_black">Resume Download Link</a> -->
